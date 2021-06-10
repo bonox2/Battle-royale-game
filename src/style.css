@@ -170,6 +170,11 @@ p{
   line-height: 22px;
   font-size: 18px;
 }
+img{
+  display: block;
+  height: auto;
+  width: 100%;
+}
 .btn{
   padding: 15px;
   background: var(--main-col);
@@ -536,6 +541,9 @@ p{
   border-radius: 10px;
   width: 455px;
 }
+.user-section .fa-twitter{
+  color: gray;
+}
 .reverse{
   margin-right: 120px;
 }
@@ -550,6 +558,8 @@ p{
   border-radius: 50%;
   overflow: hidden;
   margin-right: 30px;
+  width: 60px;
+  height: 60px;
 }
 .user-info{
   display: flex;
@@ -595,7 +605,10 @@ p{
 }
 
 
-
+.contact-img{
+  width: 445px;
+  height: 695px;
+}
 .contact-info{
   width: 680px;
   margin-top: 100px;
@@ -714,6 +727,19 @@ p{
 
 /*  <--------------   phone start  -------------->*/
 @media (max-width:1199.98px){
+  .container{
+    max-width: 960px;
+  }
+  .nav-header{
+    margin-right: 90px;
+  }
+  .platforms{
+    margin-left: 15px;
+    width: 90px;
+  }
+  .platforms::before{
+    display: none;
+  }
 } 
 @media (max-width:991.98px){
 }
@@ -722,5 +748,8 @@ p{
 @media (max-width:575.98px){
 }
 @media (max-width:320px){
+  .hero{
+    background: url('./img/hero-bg-320.jpg');
+  }
 }
 
