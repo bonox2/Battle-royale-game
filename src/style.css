@@ -769,12 +769,12 @@ img{
   .container{
     max-width: 740px;
   }
-  .nav-header{
+  .nav{
     display: block;
     flex-direction: column;
     text-align: center;
   }
-  .nav-header li{
+  .nav li{
     margin-bottom: 15px;
   }
   .about-main{
@@ -799,6 +799,22 @@ img{
   }
   .reverse{
     margin-right: 0;
+  }
+  .contact-main{
+    margin-top: 0;
+  }
+  .subscribe-main{
+    flex-wrap: wrap;
+  }
+  .search{
+    width: auto;
+  }
+  .search-submit{
+    border: none;
+    padding: 20px;
+  }
+  .contact-img{
+    display: none;
   }
 }
 @media (max-width:767.98px){
