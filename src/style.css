@@ -818,6 +818,29 @@ img{
   }
 }
 @media (max-width:767.98px){
+  .container{
+    max-width: 530px;
+  }
+  .about-main{
+    padding-top: 0;
+  }
+  .quotes-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .quotes-txt>.btn{
+    margin-bottom: 0;
+  }
+  .policy-info-a{
+    display: flex;
+    flex-direction: column;
+  }
+  .policy-a-after{
+    margin-bottom:5px;
+  }
+  .policy-a-after:after{
+    display: none;
+  }
 }
 @media (max-width:575.98px){
 }
